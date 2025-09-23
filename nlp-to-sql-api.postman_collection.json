@@ -101,7 +101,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n  \"question\": \"Show me all products that cost more than $100\"\n}"
+					"raw": "{\n  \"question\": \"Show me all products that cost more than $1000\"\n}"
 				},
 				"url": {
 					"raw": "{{base_url}}/ask",
@@ -128,7 +128,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n  \"question\": \"Show me all orders for customers whose name starts with 'John'\"\n}"
+					"raw": "{\n  \"question\": \"Show me all orders for customers whose name starts with 'Bob'\"\n}"
 				},
 				"url": {
 					"raw": "{{base_url}}/ask",
@@ -155,7 +155,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n  \"question\": \"What are the most recent 10 orders?\"\n}"
+					"raw": "{\n  \"question\": \"What are the most recent 2 orders with customer name and product?\"\n}"
 				},
 				"url": {
 					"raw": "{{base_url}}/ask",
@@ -182,7 +182,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n  \"question\": \"Find the email address for customer with ID 123\"\n}"
+					"raw": "{\n  \"question\": \"Find the email address for customer with ID 1\"\n}"
 				},
 				"url": {
 					"raw": "{{base_url}}/ask",
