@@ -82,7 +82,7 @@ Import `nlp-to-sql-api.postman_collection.json` into Postman for comprehensive A
 pip install -r requirements.txt
 
 # Run locally
-python main.py
+uvicorn main:app --reload
 ```
 
 ### Docker Commands
