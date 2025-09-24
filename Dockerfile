@@ -20,7 +20,8 @@ COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy application code
-COPY main.py .
+COPY *.py .
+COPY routes/ routes/
 
 # Create non-root user
 RUN useradd -m appuser && chown -R appuser /app
